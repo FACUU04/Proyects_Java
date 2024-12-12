@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Principal {
+public class Juego_NumeroSecreto {
     public static void main(String[] args) {
 
 
@@ -16,7 +16,7 @@ public class Principal {
             int respuestaUser = teclado.nextInt();
 
             if (respuestaUser == numeroSecreto){
-                System.out.println("FELCIDADESS GANASTEE. adivinazte el numero secreto en: "+intentos +" intentos");
+                System.out.println("FELCIDADESS GANASTEE. el numero era: "+numeroSecreto);
                 break;
 
         } else if (respuestaUser > numeroSecreto) {
