@@ -54,7 +54,7 @@ public class Principal {
 
             System.out.println("Estas escuchando "+otraCancion.getNombre());
             System.out.println("Tiempo de reproduccion "+otraCancion.getDuracionMinutos() + "minutos");
-        
+
 
 
 
